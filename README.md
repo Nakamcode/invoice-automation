@@ -17,14 +17,14 @@ A full-stack invoice management system with a FastAPI backend and React frontend
 ```bash
 cd backend
 python -m venv .venv
-source .venv/bin/activate       # Windows: .venv\Scripts\activate
+source .venv/bin/activate       # Windows: .venv\Scripts\activate [*]
 pip install -r requirements.txt
 ```
 
 Copy the example env file (Ethereal SMTP is pre-configured for local email testing):
 
 ```bash
-cp backend/.env.example backend/.env
+cd backend/.env.example backend/.env
 ```
 
 ### Frontend
